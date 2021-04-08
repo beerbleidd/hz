@@ -1,13 +1,13 @@
 body {
-  background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   padding: 0px;
   margin: 0;
 }
 .back {
-  width: 960px;
+  width: 100vw;
   height: 100px;
   margin: 0 auto;
-  background-color: rgb(30, 62, 90);
+  /**background-color: rgb(30, 62, 90);**/
+  background-color: #696969;
 }
 .logo {
   color: aliceblue;
@@ -32,10 +32,11 @@ a:visited {
   color: aliceblue;
 }
 .main {
-  width: 960px;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  background-color: #505559;
+  background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  /**background-color: #505559;**/
 }
 .about {
   color: aliceblue;
