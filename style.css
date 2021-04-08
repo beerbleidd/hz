@@ -9,6 +9,7 @@ body {
   /**background-color: rgb(30, 62, 90);**/
   background-color: #696969;
 }
+
 .logo {
   color: aliceblue;
   font-size: 50px;
@@ -31,18 +32,46 @@ body {
 a:visited {
   color: aliceblue;
 }
+
 .main {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
   margin: 0 auto;
-  background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+
   /**background-color: #505559;**/
 }
 .about {
-  color: aliceblue;
-  text-align: center;
-  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: #333333;
+  text-align: left;
+  font-size: 30px;
+  background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 .spisok {
   list-style-type: none;
+}
+.about-us {
+  background-color: #182428;
+  width: 100vw;
+  height: 100vh;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.about-us p {
+  font-size: 20px;
+}
+.repertuar {
+  background-color: #182428;
+  width: 100vw;
+  height: 100vh;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.media {
+  background-color: #182428;
+  width: 100vw;
+  height: 100vh;
+  color: whitesmoke;
+  font-size: 30px;
 }
