@@ -40,7 +40,9 @@ body {
 a:visited {
   color: aliceblue;
 }
-
+.nav {
+  padding-right: 10px;
+}
 .main {
   max-width: 100%;
   max-height: 100%;
