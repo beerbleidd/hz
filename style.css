@@ -12,10 +12,18 @@ body {
 
 .logo {
   color: aliceblue;
-  font-size: 50px;
+  font-size: 45px;
   padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
   float: left;
   padding-top: 10px;
+}
+.squad-logo {
+  background-color: #000000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .menu {
   color: aliceblue;
