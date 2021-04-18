@@ -7,7 +7,7 @@ body {
   height: 100px;
   margin: 0 auto;
   /**background-color: rgb(30, 62, 90);**/
-  background-color: #696969;
+  background-color: #040506;
 }
 
 .logo {
@@ -20,13 +20,13 @@ body {
   padding-top: 10px;
 }
 .squad-logo {
-  background-color: #000000;
+  background-color: #a79258;
   position: absolute;
   top: 10px;
   left: 10px;
 }
 .menu {
-  color: aliceblue;
+  color: #a79258;
   text-align: right;
   word-spacing: 25px;
   margin: 0px;
@@ -37,8 +37,21 @@ body {
 .menu li {
   display: inline-block;
 }
+.nav a {
+  border-style: solid;
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:link {
+  color: #a79258;
+  text-decoration: none;
+}
 a:visited {
-  color: aliceblue;
+  color: #a79258;
+  text-decoration: none;
 }
 .nav {
   padding-right: 10px;
@@ -53,16 +66,17 @@ a:visited {
 .about {
   width: 100vw;
   height: 100vh;
-  color: #333333;
+  color: #ffffe0;
   text-align: left;
   font-size: 30px;
-  background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-color: #15191d;
 }
+
 .spisok {
   list-style-type: none;
 }
 .about-us {
-  background-color: #182428;
+  background-color: #15191d;
   width: 100vw;
   height: 100vh;
   color: whitesmoke;
@@ -72,16 +86,19 @@ a:visited {
   font-size: 20px;
 }
 .repertuar {
-  background-color: #182428;
+  background-color: #15191d;
   width: 100vw;
   height: 100vh;
   color: whitesmoke;
   font-size: 30px;
 }
 .media {
-  background-color: #182428;
+  background-color: #15191d;
   width: 100vw;
   height: 100vh;
   color: whitesmoke;
   font-size: 30px;
+}
+section h1 {
+  margin: 0;
 }
