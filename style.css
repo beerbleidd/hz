@@ -52,6 +52,10 @@ a:link {
   color: #a79258;
   text-decoration: none;
 }
+.nav a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
 a:visited {
   color: #a79258;
   text-decoration: none;
