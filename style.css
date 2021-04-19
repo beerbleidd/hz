@@ -2,12 +2,13 @@ body {
   padding: 0px;
   margin: 0;
 }
+/*Header*/
 .back {
   width: 100vw;
   height: 100px;
   margin: 0 auto;
-  /**background-color: rgb(30, 62, 90);**/
   background-color: #040506;
+  position: fixed;
 }
 
 .logo {
@@ -56,12 +57,11 @@ a:visited {
 .nav {
   padding-right: 10px;
 }
+/********************Main*********************/
 .main {
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
-
-  /**background-color: #505559;**/
 }
 .about {
   width: 100vw;
@@ -71,10 +71,30 @@ a:visited {
   font-size: 30px;
   background-color: #15191d;
 }
-
-.spisok {
-  list-style-type: none;
+.order {
+  color: #a79258;
+  background: #040506;
+  border: solid;
+  padding: 10px 25px;
+  cursor: pointer;
 }
+.order:hover {
+  background: rgba(5, 0.2255, 255, 25);
+}
+.main-photo {
+  width: 30%;
+  height: 60%;
+  float: right;
+  position: fixed;
+  top: 110px;
+  right: 20px;
+  /*padding-right: 20px;*/
+}
+section h1 {
+  margin: 0;
+  padding-top: 100px;
+}
+
 .about-us {
   background-color: #15191d;
   width: 100vw;
@@ -98,7 +118,4 @@ a:visited {
   height: 100vh;
   color: whitesmoke;
   font-size: 30px;
-}
-section h1 {
-  margin: 0;
 }
