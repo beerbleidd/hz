@@ -18,9 +18,16 @@ body {
   padding-right: 20px;
   padding-bottom: 10px;
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-
+.squad-logo {
+  /*background-color: #a79258;*/
+  border-style: solid;
+  color: #a79258;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 .menu {
   color: #a79258;
   text-align: right;
