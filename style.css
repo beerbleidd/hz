@@ -85,7 +85,7 @@ a:visited {
   cursor: pointer;
 }
 .order:hover {
-  background: rgba(5, 0.2255, 255, 25);
+  color: #b3ad84;
 }
 .main-photo {
   width: 50%;
