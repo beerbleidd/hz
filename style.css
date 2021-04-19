@@ -82,8 +82,8 @@ a:visited {
   background: rgba(5, 0.2255, 255, 25);
 }
 .main-photo {
-  width: 30%;
-  height: 60%;
+  width: 50%;
+  height: 80%;
   float: right;
   position: fixed;
   top: 110px;
